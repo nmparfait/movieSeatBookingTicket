@@ -18,14 +18,14 @@ body {
   margin: 20px 0;
 }
 .pick {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .movie-container select {
   background-color: #fff;
   border: 0;
   border-radius: 5px;
-  font-size: 22px;
+  font-size: 19px;
   margin-left: 10px;
   padding: 5px 15px 5px 15px;
   -moz-appearance: none;
@@ -40,8 +40,8 @@ body {
 
 .seat {
   background-color: #444541;
-  height: 25px;
-  width: 31px;
+  height: 19px;
+  width: 25px;
   margin: 3px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
