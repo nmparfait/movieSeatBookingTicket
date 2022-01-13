@@ -4,18 +4,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/fontawesome.min.css"
+    />
+    <!-- style -->
     <link rel="stylesheet" href="styles.css" />
+    <!-- title -->
     <title>Movie seat Booking</title>
   </head>
   <body>
     <div class="movie-container">
-      <label for="">Pick a movie:</label>
-      <select id="movie">
+      <label class="pick">Pick a movie:</label>
+      <select class="arrow" id="movie">
+        <option value="5">Titanic ($5)</option>
         <option value="10">Avengers: Endgame ($10)</option>
         <option value="12">Joker ($12)</option>
         <option value="8">Toy Story 4 ($8)</option>
         <option value="9">Pursuit of Happiness ($9)</option>
         <option value="14">The Lion King ($14)</option>
+        <option value="15">Don't Look Up ($15)</option>
       </select>
     </div>
 
@@ -38,13 +47,17 @@
       <div class="screen"></div>
       <div class="row">
         <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
         <div class="seat"></div>
         <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
         <div class="seat"></div>
         <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
       </div>
 
       <!-- 2 row -->
@@ -57,6 +70,10 @@
         <div class="seat"></div>
         <div class="seat occupied"></div>
         <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
       </div>
 
       <!-- 3 row -->
@@ -65,8 +82,12 @@
         <div class="seat"></div>
         <div class="seat occupied"></div>
         <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
         <div class="seat"></div>
         <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
         <div class="seat"></div>
         <div class="seat"></div>
       </div>
@@ -75,10 +96,14 @@
       <div class="row">
         <div class="seat occupied"></div>
         <div class="seat"></div>
-        <div class="seat"></div>
+        <div class="seat occupied"></div>
         <div class="seat"></div>
         <div class="seat"></div>
         <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
         <div class="seat"></div>
         <div class="seat"></div>
       </div>
@@ -93,6 +118,10 @@
         <div class="seat occupied"></div>
         <div class="seat"></div>
         <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
       </div>
 
       <!-- 6 row -->
@@ -101,10 +130,14 @@
         <div class="seat occupied"></div>
         <div class="seat occupied"></div>
         <div class="seat"></div>
-        <div class="seat"></div>
+        <div class="seat occupied"></div>
         <div class="seat"></div>
         <div class="seat"></div>
         <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
       </div>
     </div>
 
